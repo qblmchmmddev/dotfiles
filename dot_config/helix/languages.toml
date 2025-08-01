@@ -1,0 +1,13 @@
+[language-server.emmet-lsp]
+command = "emmet-language-server"
+args = ["--stdio"]
+
+[[language]]
+name = "heex"
+language-id = "phoenix-heex"
+language-servers = [ "elixir-ls", "tailwindcss-ls", "vscode-html-language-server", "emmet-lsp" ]
+auto-format = true
+
+[[language]]
+name = "elixir"
+language-servers = [ "elixir-ls", "tailwindcss-ls", "vscode-html-language-server" ]
