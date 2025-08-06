@@ -2,10 +2,6 @@
 command = "tailwindcss-language-server"
 args = ["--stdio"]
 
-[language-server.emmet-lsp]
-command = "emmet-language-server"
-args = ["--stdio"]
-
 [language-server.elixir-ls]
 command = "elixir-ls"
 config = { elixirLS.dialyzerEnabled = true }
@@ -13,7 +9,7 @@ config = { elixirLS.dialyzerEnabled = true }
 [[language]]
 name = "heex"
 language-id = "phoenix-heex"
-language-servers = [ "elixir-ls", "tailwindcss-ls", "vscode-html-language-server", "emmet-lsp" ]
+language-servers = [ "elixir-ls", "tailwindcss-ls", "vscode-html-language-server" ]
 auto-format = true
 
 [[language]]
@@ -24,4 +20,4 @@ file-types = ["ex", "exs", "heex"]
 shebangs = ["elixir"]
 roots = ["mix.exs"]
 auto-format = true
-language-servers = [ "elixir-ls", "tailwindcss-ls", "vscode-html-language-server", "emmet-lsp" ]
+language-servers = [ "elixir-ls", "tailwindcss-ls", "vscode-html-language-server" ]
