@@ -7,17 +7,40 @@ command = "elixir-ls"
 config = { elixirLS.dialyzerEnabled = true }
 
 [[language]]
+name = "html"
+language-servers = [ "vscode-html-language-server", "tailwindcss-ls" ]
+
+[[language]]
+name = "css"
+language-servers = [ "vscode-css-language-server", "tailwindcss-ls" ]
+
+[[language]]
+name = "jsx"
+language-servers = [ "typescript-language-server", "tailwindcss-ls" ]
+
+[[language]]
+name = "tsx"
+language-servers = [ "typescript-language-server", "tailwindcss-ls" ]
+
+[[language]]
+name = "svelte"
+language-servers = [ "svelteserver", "tailwindcss-ls" ]
+
+# [[language]]
+# name = "elixir"
+# language-id = "phoenix-heex"
+# auto-format = true
+
+[[language]]
 name = "heex"
 language-id = "phoenix-heex"
 language-servers = [ "elixir-ls", "tailwindcss-ls", "vscode-html-language-server" ]
 auto-format = true
 
+[language-server.kotlin-lsp]
+command = "/Users/mi/Downloads/kotlin-0/kotlin-lsp.sh"
+args = ["--stdio"]
+
 [[language]]
-name = "elixir"
-language-id = "phoenix-heex"
-scope = "source.elixir"
-file-types = ["ex", "exs", "heex"]
-shebangs = ["elixir"]
-roots = ["mix.exs"]
-auto-format = true
-language-servers = [ "elixir-ls", "tailwindcss-ls", "vscode-html-language-server" ]
+name = "kotlin"
+language-servers = ["kotlin-lsp"]
