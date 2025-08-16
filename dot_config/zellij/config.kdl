@@ -29,6 +29,8 @@ keybinds clear-defaults=true {
         bind "tab" { SwitchFocus; }
         bind "[" { PreviousSwapLayout; }
         bind "]" { NextSwapLayout; }
+        bind "-" { Resize "Decrease"; }
+        bind "=" { Resize "Increase"; }
     }
     tab {
         bind "left" { GoToPreviousTab; }
