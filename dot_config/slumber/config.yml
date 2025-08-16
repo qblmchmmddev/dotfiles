@@ -1,0 +1,10 @@
+input_bindings:
+  up: [k]
+  down: [j]
+  left: [h]
+  right: [l]
+  scroll_left: [shift j]
+  scroll_right: [shift k]
+  select_recipe_list: [r]
+  select_request: [shift r]
+  history: [shift h]
