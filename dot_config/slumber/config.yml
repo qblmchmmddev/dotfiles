@@ -1,3 +1,4 @@
+pager: hx
 input_bindings:
   up: [k]
   down: [j]
