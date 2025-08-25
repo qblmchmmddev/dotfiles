@@ -4,6 +4,9 @@ theme = "catppuccin_frappe"
 true-color = true
 end-of-line-diagnostics = "hint"
 
+[editor.soft-wrap]
+enable = true
+
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
