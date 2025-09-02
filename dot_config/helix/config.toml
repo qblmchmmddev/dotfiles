@@ -3,6 +3,7 @@ theme = "catppuccin_frappe"
 [editor]
 true-color = true
 end-of-line-diagnostics = "hint"
+line-number = "relative"
 
 [editor.soft-wrap]
 enable = true
