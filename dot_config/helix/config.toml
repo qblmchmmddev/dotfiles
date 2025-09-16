@@ -13,8 +13,11 @@ right = ["workspace-diagnostics", "spinner", "register", "version-control"]
 enable = true
 
 [editor.cursor-shape]
+# insert = "bar"
+# normal = "block"
+# select = "underline"
 insert = "bar"
-normal = "block"
+normal = "underline"
 select = "underline"
 
 [editor.lsp]

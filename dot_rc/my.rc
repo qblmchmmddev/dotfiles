@@ -1,3 +1,4 @@
+export XDG_CONFIG_HOME="~/.config"
 export EDITOR=hx
 alias taskexport='task export | jq "sort_by(.uuid)"'
 export SLUMBER_CONFIG_PATH=~/.config/slumber/config.yml
