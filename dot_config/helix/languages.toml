@@ -3,18 +3,6 @@ name = "typescript"
 language-servers = [ "typescript-language-server" ]
 roots = ["package.json"]
 
-[[language.debugger.templates]]
-name = "Launch"
-request = "launch"
-[[language.debugger.templates.completion]]
-completion="filename"
-name = "main"
-
-[language.debugger.templates.args]
-address = "127.0.0.1"
-program = "{0}"
-type = "pwa-node"
-
 [language-server.tailwindcss-ls]
 command = "tailwindcss-language-server"
 args = ["--stdio"]
