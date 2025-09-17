@@ -3,13 +3,6 @@ name = "typescript"
 language-servers = [ "typescript-language-server" ]
 roots = ["package.json"]
 
-[language.debugger]
-name = "vscode-js-debug"
-command = "bun"
-args = ["/Users/mi/Developer/js-debug/src/dapDebugServer.js"]
-transport = "tcp"
-port-arg = "{} 127.0.0.1"
-
 [[language.debugger.templates]]
 name = "Launch"
 request = "launch"
@@ -63,7 +56,7 @@ language-servers = [ "elixir-ls", "tailwindcss-ls", "vscode-html-language-server
 auto-format = true
 
 [language-server.kotlin-lsp]
-command = "/Users/mi/Downloads/kotlin-0/kotlin-lsp.sh"
+command = "kotlin-lsp"
 args = ["--stdio"]
 
 [[language]]
