@@ -1,4 +1,4 @@
-theme = "catppuccin_frappe"
+theme = "ao"
 
 [editor]
 true-color = true
@@ -6,7 +6,7 @@ end-of-line-diagnostics = "hint"
 line-number = "relative"
 
 [editor.statusline]
-left = ["file-name", "total-line-numbers", "file-modification-indicator", "diagnostics"]
+left = ["mode", "file-name", "file-modification-indicator", "total-line-numbers", "spacer", "diagnostics"]
 right = ["workspace-diagnostics", "spinner", "register", "version-control"]
 
 [editor.soft-wrap]
