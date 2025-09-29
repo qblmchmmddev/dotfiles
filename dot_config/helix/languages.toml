@@ -50,3 +50,6 @@ args = ["--stdio"]
 [[language]]
 name = "kotlin"
 language-servers = ["kotlin-lsp"]
+
+[language-server.dart]
+config = { dart.completeFunctionCalls = true }
