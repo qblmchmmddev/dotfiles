@@ -53,3 +53,10 @@ language-servers = ["kotlin-lsp"]
 
 [language-server.dart]
 config = { dart.completeFunctionCalls = true }
+
+[language-server.csharp]
+command = "csharp-language-server"
+
+[[language]]
+name = "c-sharp"
+language-servers = ["csharp"]
