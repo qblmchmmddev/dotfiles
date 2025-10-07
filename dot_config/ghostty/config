@@ -1,4 +1,4 @@
 macos-option-as-alt=true
-theme = Gruvbox Dark Hard
+theme = Catppuccin Mocha
 font-family = "JetBrains Mono"
-custom-shader="./shaders/cursor_blaze.glsl"
+# custom-shader="./shaders/cursor_blaze.glsl"
